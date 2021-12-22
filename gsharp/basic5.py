@@ -13,5 +13,6 @@ print(strmm.isalnum())
 print(strmy.endswith("engineer"))
 print(strmy.count("e"))
 print(strmy.find("engineer"))
-
+print(strmy[1])
+print(strmy.lower())
 
