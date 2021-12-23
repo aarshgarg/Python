@@ -4,7 +4,7 @@ print(groceery[3])
 number=[2,5,1,44,22,6]
 #number.sort()
 #number.reverse()
-number.append(18,) # it can attach the 18 number at last
+number.append(18) # it can attach the 18 number at last
 print(number)
 print(number[::])
 print(number[1:4])
@@ -14,7 +14,7 @@ print(number[::-1]) # by this it can only reverse the list but not in sorted ord
 
 number[2]=62 # it is used to change the value at given index
 print(number)
-
+#it is list
 
 
 
