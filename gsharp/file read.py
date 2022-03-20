@@ -8,6 +8,7 @@ mat=f.read(3)
 print(mat)
 mat=f.read(39)
 print(mat)"""
-
-#print(f.readlines())
-print(f.readline())
+# readlines is used to the print in list
+print(f.readlines())
+#print(f.readline())
+f.close()
