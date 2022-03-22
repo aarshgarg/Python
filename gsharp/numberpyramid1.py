@@ -1,5 +1,6 @@
-n=int(input("enter the number"))
+n=int(input("enter the number="))
 for i in range(n):
-    for j in range(i+1):
-        print(j+i,end=" ")
+    # -1 and -1 is used to reverse the index and pattern
+    for j in range(i,-1,-1):
+        print(j+1,end=" ")
     print()
